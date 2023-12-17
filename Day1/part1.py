@@ -1,7 +1,7 @@
 import re
 
 sum = 0
-filepath = "Day1\\data.txt"
+filepath = "data.txt"
 with open(filepath, "rt") as my_file:
     for line in my_file:
         reggie = "\d"
