@@ -14,7 +14,7 @@ numbers = {
     "nine":9
 }
 reggie = "(?=(one|two|three|four|five|six|seven|eight|nine|zero|\d))"
-filepath = "Day1\\data.txt"
+filepath = "data.txt"
 linenum = 1
 with open(filepath, "rt") as my_file:
     for line in my_file:
